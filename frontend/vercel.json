@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "destination": "http://157.230.249.79/$1",
+        "statusCode": 302
+      }
+    ]
+  }
