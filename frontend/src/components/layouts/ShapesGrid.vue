@@ -35,9 +35,9 @@ interface Shape {
 
 const { shapes } = storeToRefs(shapesStore) as unknown as { shapes: Shape[] }
 
-setInterval(() => {
-  setup()
-}, 5000);
+// setInterval(() => {
+//   setup()
+// }, 5000);
 </script>
 
 <template>

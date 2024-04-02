@@ -10,6 +10,7 @@
     <router-link to="/" class="text-sm font-medium transition-colors hover:text-primary" :class="{ 'text-muted-foreground': $route.path !== '/' }">Home</router-link>
     <router-link to="/overview" v-if="authStore.isAuthenticated()" class="text-sm font-medium transition-colors hover:text-primary" :class="{ 'text-muted-foreground': $route.path !== '/overview' }">Overview</router-link>
     <router-link to="/listing" v-if="authStore.isAuthenticated()" class="text-sm font-medium transition-colors hover:text-primary" :class="{ 'text-muted-foreground': $route.path !== '/listing' }">Listing</router-link>
+    <router-link to="/to-do-list" v-if="authStore.isAuthenticated()" class="text-sm font-medium transition-colors hover:text-primary" :class="{ 'text-muted-foreground': $route.path !== '/to-do-list' }">To Do List</router-link>
     <!-- Other navigation links -->
   </div>
 </template>

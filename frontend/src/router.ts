@@ -20,6 +20,12 @@ const routes: Array<RouteRecordRaw> = [
     meta: { requiresAuth: true },
   },
   {
+    path: '/to-do-list',
+    name: 'ToDoList',
+    component: () => import('@/components/ToDoList.vue'),
+    meta: { requiresAuth: true },
+  },
+  {
     path: '/login',
     name: 'Login',
     component: () => import('@/components/Login.vue'),
