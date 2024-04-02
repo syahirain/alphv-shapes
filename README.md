@@ -1,4 +1,4 @@
-# alphv-test
+# shapes crud web app
 
 ## frontend
 ### change API_URL in .env accordingly
